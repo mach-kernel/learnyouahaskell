@@ -10,3 +10,7 @@ doubleSmallNumber x = if x > 100
 doubleSmallNumberInline x = if x > 100 then x else x*2
 
 doubleSmallNumberAnd1Anyway x = (if x > 100 then x else x*2) + 1
+
+
+fibonacci x = take x (
+)
